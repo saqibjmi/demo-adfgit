@@ -1,0 +1,26 @@
+{
+	"name": "pipelinetf",
+	"properties": {
+		"activities": [
+			{
+				"name": "Append variable1",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "bob",
+					"value": "something"
+				}
+			}
+		],
+		"variables": {
+			"bob": {
+				"type": "String",
+				"defaultValue": "item1"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-03-21T11:59:07Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

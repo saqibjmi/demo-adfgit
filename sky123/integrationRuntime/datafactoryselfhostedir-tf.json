@@ -1,0 +1,6 @@
+{
+	"name": "datafactoryselfhostedir-tf",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

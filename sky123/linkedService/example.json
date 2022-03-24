@@ -1,0 +1,16 @@
+{
+	"name": "example",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"connectVia": {
+			"referenceName": "example",
+			"type": "IntegrationRuntimeReference"
+		},
+		"type": "Web",
+		"typeProperties": {
+			"authenticationType": "Anonymous",
+			"url": "http://dummy.restapiexample.com/api/v1/employees"
+		},
+		"annotations": []
+	}
+}

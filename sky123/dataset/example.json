@@ -1,0 +1,17 @@
+{
+	"name": "example",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "example",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "HttpFile",
+		"typeProperties": {
+			"relativeUrl": "http://dummy.restapiexample.com/api/v1/employees",
+			"requestMethod": "GET",
+			"requestBody": "foo=bar"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
